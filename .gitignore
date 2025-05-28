@@ -1,0 +1,57 @@
+# Node.js / React (client)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.*.local
+dist/
+build/
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+.env.docker
+
+# Python / Poetry (server)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.poetry/
+.mypy_cache/
+.pytest_cache/
+.poetry-version
+*.egg-info/
+.eggs/
+env/
+venv/
+ENV/
+.venv/
+Pipfile.lock
+poetry.lock
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux / GNOME
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Monitoring / Grafana / Prometheus (si nécessaire)
+grafana/
+prometheus/
+data/
