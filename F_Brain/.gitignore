@@ -1,0 +1,19 @@
+
+# Node.js
+client/node_modules/
+client/package-lock.json
+
+# Python
+server/__pycache__/
+server/venv/
+monitoring/__pycache__/
+monitoring/venv/
+
+# Docker
+*.log
+*.env
+docker-compose.override.yml
+
+# Django
+server/db.sqlite3
+
