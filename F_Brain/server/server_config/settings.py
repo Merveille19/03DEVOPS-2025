@@ -132,7 +132,6 @@ CELERY_TASK_SERIALIZER = "json"
 CELERY_RESULT_SERIALIZER = "json"
 
 INSTALLED_APPS += [
-    'django_prometheus',
     'django_celery_results',
     'django_celery_beat',
 ]

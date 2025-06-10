@@ -6,6 +6,9 @@ COPY package.json ./
 RUN yarn install 
 
 COPY . .
+
+RUN chmod +x ./node_modules/.bin/vite
+
 RUN yarn build
 
 CMD ["yarn", "preview", "--host"]
